@@ -1,6 +1,6 @@
 # RunningRex
 
-Base on a game framework by [James Cho](http://jamescho7.com/), I develop a game on Android which is actually original from Google's browser, Chome.
+Base on a game framework by [James Cho](http://jamescho7.com/), I develop a game on Android which actually originates from Google's browser, Chome.
 
 Tips on operation:</br>
 During playing the game:</br>
