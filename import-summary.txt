@@ -1,0 +1,146 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\ECNU\Academic\android-app-development\Something_fun_by_Android_Studio\mobile_application_development\EllioAndroid Complete
+                                                                                                                    -        
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* LICENSE.txt
+* README.txt
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\assets\
+* app\src\main\assets\block.png
+* app\src\main\assets\cloud1.png
+* app\src\main\assets\cloud2.png
+* app\src\main\assets\duck.png
+* app\src\main\assets\grass.png
+* app\src\main\assets\hit.wav
+* app\src\main\assets\ic_launcher_36.png
+* app\src\main\assets\ic_launcher_48.png
+* app\src\main\assets\ic_launcher_72.png
+* app\src\main\assets\ic_launcher_96.png
+* app\src\main\assets\jump.png
+* app\src\main\assets\onjump.wav
+* app\src\main\assets\run_anim1.png
+* app\src\main\assets\run_anim2.png
+* app\src\main\assets\run_anim3.png
+* app\src\main\assets\run_anim4.png
+* app\src\main\assets\run_anim5.png
+* app\src\main\assets\score_button.png
+* app\src\main\assets\score_button_down.png
+* app\src\main\assets\start_button.png
+* app\src\main\assets\start_button_down.png
+* app\src\main\assets\welcome.png
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\jamescho\
+* app\src\main\java\com\jamescho\framework\
+* app\src\main\java\com\jamescho\framework\animation\
+* app\src\main\java\com\jamescho\framework\animation\Animation.java
+* app\src\main\java\com\jamescho\framework\animation\Frame.java
+* app\src\main\java\com\jamescho\framework\util\
+* app\src\main\java\com\jamescho\framework\util\InputHandler.java
+* app\src\main\java\com\jamescho\framework\util\Painter.java
+* app\src\main\java\com\jamescho\framework\util\RandomNumberGenerator.java
+* app\src\main\java\com\jamescho\framework\util\UIButton.java
+* app\src\main\java\com\jamescho\game\
+* app\src\main\java\com\jamescho\game\model\
+* app\src\main\java\com\jamescho\game\model\Block.java
+* app\src\main\java\com\jamescho\game\model\Cloud.java
+* app\src\main\java\com\jamescho\game\model\Player.java
+* app\src\main\java\com\jamescho\game\state\
+* app\src\main\java\com\jamescho\game\state\GameOverState.java
+* app\src\main\java\com\jamescho\game\state\LoadState.java
+* app\src\main\java\com\jamescho\game\state\MenuState.java
+* app\src\main\java\com\jamescho\game\state\PlayState.java
+* app\src\main\java\com\jamescho\game\state\ScoreState.java
+* app\src\main\java\com\jamescho\game\state\State.java
+* app\src\main\java\com\jamescho\simpleandroidgdf\
+* app\src\main\java\com\jamescho\simpleandroidgdf\Assets.java
+* app\src\main\java\com\jamescho\simpleandroidgdf\GameMainActivity.java
+* app\src\main\java\com\jamescho\simpleandroidgdf\GameView.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\ic_launcher.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
